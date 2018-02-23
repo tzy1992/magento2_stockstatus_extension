@@ -1,0 +1,1 @@
+# magento2_stockstatus_extension

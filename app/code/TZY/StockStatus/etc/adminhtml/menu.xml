@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>    	 
+    	 <add id="TZY_StockStatus::tzy_stockstatus" title="Stock Status" module="TZY_StockStatus" sortOrder="20" parent="Magento_Catalog::catalog" resource="TZY_StockStatus::tzy_stockstatus" action="tzy_stockstatus/grid"/>        
+    </menu>
+</config>

@@ -1,0 +1,21 @@
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>      
+      <th class="text-center" scope="col">Name</th>
+      <th class="text-center" scope="col">SKU</th>
+      <th class="text-center" scope="col">Total Qty</th>
+      <th class="text-center" scope="col">Available Qty</th>
+      <th class="text-center" scope="col">Qty in pending orders</th>
+      <th class="text-center" scope="col">Qty in processing orders</th>
+    </tr>
+  </thead>
+  <tbody>     
+     <?php $this->productLoad();?>
+</tbody>
+</table>
+
+ <?php if ($block->getPagerHtml()): ?> 
+<div class="order-products-toolbar toolbar bottom">
+<?php echo $block->getPagerHtml(); ?>
+</div> 
+<?php endif ?>
